@@ -1,0 +1,37 @@
+body {
+  background-color: #0a335c;
+  font-family: "Helvetica, Arial, sans-serif";
+}
+
+img {
+  max-width: 100%;
+}
+
+.flexParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flexParent .card {
+  padding: 0.5em;
+  margin: 1em auto;
+  background-color: white;
+  max-width: 300px;
+  transform: skew(15deg);
+}
+.flexParent .card2 {
+  padding: 0.5em;
+  margin: 1em auto;
+  background-color: white;
+  max-width: 300px;
+  transform: rotate(15deg);
+}
+.flexParent .card3 {
+  padding: 0.5em;
+  margin: 1em auto;
+  background-color: white;
+  max-width: 300px;
+  transform: translate(20%, 30%);
+}
+
+/*# sourceMappingURL=transforms.css.map */

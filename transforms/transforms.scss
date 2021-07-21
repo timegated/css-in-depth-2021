@@ -1,0 +1,35 @@
+body {
+  background-color: hsl(210, 80%, 20%);
+  font-family: 'Helvetica, Arial, sans-serif'
+}
+
+img {
+  max-width: 100%;
+}
+.flexParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .card {
+    padding: 0.5em;
+    margin: 1em auto;
+    background-color: white;
+    max-width: 300px;
+    transform: skew(15deg);
+  }
+  .card2 {
+    padding: 0.5em;
+    margin: 1em auto;
+    background-color: white;
+    max-width: 300px;
+    transform: rotate(15deg);
+  }
+  .card3 {
+    padding: 0.5em;
+    margin: 1em auto;
+    background-color: white;
+    max-width: 300px;
+    transform: translate(20%, 30%);
+  }
+}
